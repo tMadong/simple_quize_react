@@ -35,7 +35,7 @@ const qReducer = (state, action) => {
       return {
         ...state,
         currentAnswer: null,
-        currentQuestionId: state.currentQuestionId++,
+        currentQuestionId: state.currentQuestionId + 1,
       };
     case TYPES.SET_QUESTIONS:
       return { ...state, questions: payload };
