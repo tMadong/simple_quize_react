@@ -70,3 +70,10 @@ body {
   font-weight: 600;
   /* font-size: 14px; */
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
